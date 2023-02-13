@@ -101,7 +101,6 @@ h6 {
 .item img {
    object-fit: cover;
    width: 100%;
-   height: 700px;
 }
 /* Кнопки вперед и назад */
 .previous, .next {
