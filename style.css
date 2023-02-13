@@ -94,8 +94,8 @@ h6 {
 .slider{
    max-width: 80%;
    position: relative;
-   margin: 10px auto;
-   
+   margin: 0px auto;
+   padding: 10px 0px;
 }
 /* Картинка масштабируется по отношению к родительскому элементу */
 .item img {
