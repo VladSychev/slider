@@ -1,0 +1,131 @@
+/*Обнуление*/
+
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: inherit;
+}
+
+/*=========================================================================================================================================================================================================*/
+
+/* Слайдер */
+.slider{
+   max-width: 80%;
+   position: relative;
+   margin: 0 auto;
+   padding: 10px 0;
+}
+/* Картинка масштабируется по отношению к родительскому элементу */
+.item img {
+   object-fit: cover;
+   width: 100%;
+   height: 700px;
+}
+/* Кнопки вперед и назад */
+.previous, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 50px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+}
+.next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.onHoverColor {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+/* При клике на кнопки добавляем фон кнопок */
+.onCkickColor {
+   background-color: rgba(4, 55, 22, 0.829);
+}
