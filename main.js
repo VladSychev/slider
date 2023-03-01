@@ -102,7 +102,7 @@ if (slides.length === 0) {
       }
       slidesNew[slideIndex - 1].style.display = "block";
       /* Проходим по каждой точке в цикле for */
-      for (i = 0; i < dots.length; i++) {
+      for (let i = 0; i < dots.length; i++) {
          dots[i].classList.remove("dot-active");
       }
       dots[slideIndex - 1].classList.add("dot-active");
